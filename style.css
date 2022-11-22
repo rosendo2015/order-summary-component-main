@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --white: #fff;
+    --Very-pale-blue: hsla(228, 100%, 98%, 0.19);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--Pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+main {
+
+    padding: 12rem 3rem;
+}
+#illustration-hero {
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--white);
+    width: 35rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+article h1 {
+    margin: 1.7rem 0 0;
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+
+article p {
+    width: 78%;
+   
+    font-weight: 500;
+    line-height: 160%;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--Desaturated-blue);
+}
+
+.wrapper {
+    margin: 1rem 0 .1rem;
+    width: 85%;
+    border-radius: 1rem;
+    padding: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: hsl(0, 4%, 98%);
+}
+.wrapper .valor p{
+
+    width: 100%;
+    color: var(--Dark-blue);
+    font-weight: 900;
+    font-size: 1.5rem;
+   
+}
+.wrapper span{
+   
+    font-weight: 700;
+    color: var(--Desaturated-blue);
+    font-size: 1.5rem;
+}
+.wrapper a{
+    margin-left: 3rem;
+    font-weight: 900;
+    color: var(--Bright-blue);
+    font-size: 1.4rem;
+}
+.wrapper a:hover{
+    text-decoration: none;
+    color: rgba(92, 43, 226, 0.515);
+}
+
+button {
+    width: 85%;
+    color: var(--Pale-blue);
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.7rem 0;
+    border-radius: 1rem;
+    background-color: var(--Bright-blue);
+    border: 0;
+    box-shadow: 0 15px 15px 6px var(--Pale-blue);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(92, 43, 226, 0.515);
+    
+}
+span{
+    color: gray;
+    font-weight: 900;
+    margin: 0.6rem 0 4rem;
+    cursor: pointer;
+}
+span:hover{
+    color: var(--Dark-blue);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
